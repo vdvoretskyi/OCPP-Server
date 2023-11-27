@@ -1,23 +1,4 @@
-<%--
 
-    SteVe - SteckdosenVerwaltung - https://github.com/steve-community/steve
-    Copyright (C) 2013-2023 SteVe Community Team
-    All Rights Reserved.
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
---%>
 <%@ include file="../00-header.jsp" %>
 <spring:hasBindErrors name="chargePointForm">
     <div class="error">
@@ -105,7 +86,7 @@
                         <td>
                             <form:checkbox path="insertConnectorStatusAfterTransactionMsg"/>
                             <a class="tooltip" href="#"><img src="${ctxPath}/static/images/info.png" style="vertical-align:middle">
-                                <span>After a transaction start/stop message, a charging station might send a connector status notification, but it is not required. If this is enabled, SteVe will update the connector status no matter what.</span>
+                                <span>After a transaction start/stop message, a charging station might send a connector status notification, but it is not required. If this is enabled, Hlib will update the connector status no matter what.</span>
                             </a>
                         </td>
                     </tr>

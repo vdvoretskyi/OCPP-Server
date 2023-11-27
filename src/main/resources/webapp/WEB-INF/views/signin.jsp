@@ -1,23 +1,4 @@
-<%--
 
-    SteVe - SteckdosenVerwaltung - https://github.com/steve-community/steve
-    Copyright (C) 2013-2023 SteVe Community Team
-    All Rights Reserved.
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
---%>
 <%@ page contentType="text/html" pageEncoding="utf-8" language="java" trimDirectiveWhitespaces="true" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
@@ -29,11 +10,11 @@
 	<link rel="icon" href="${ctxPath}/static/images/favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="${ctxPath}/static/images/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="${ctxPath}/static/css/style.css">
-	<title>SteVe - Steckdosenverwaltung</title>
+	<title>220-signup</title>
 </head>
 <body>
 <div class="main">
-<div class="top-banner"><div class="container"><a href="${ctxPath}/manager/home"><img src="${ctxPath}/static/images/logo2.png" height="80"></a></div></div>
+<div class="top-banner"><div class="container"><a href="${ctxPath}/manager/home"><img src="${ctxPath}/static/images/logo2.jpg" height="80"></a></div></div>
 <div class="top-menu"></div>
 <div class="main-wrapper">
     <c:if test="${param.error != null}">
